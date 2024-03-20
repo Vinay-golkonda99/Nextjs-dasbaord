@@ -37,7 +37,7 @@ export default function Page() {
           {/* Add Hero Images Here */}
         </div>
         <Image
-        src="/hero-desktop.png"
+        src="/opengraph-image.png"
         width={1000}
         height={760}
         className="hidden md:block"
