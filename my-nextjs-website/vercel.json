@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "pages/**/*",
+      "use": "@vercel/static-build"
+    },
+    {
+      "src": "public/**/*",
+      "use": "@vercel/static-build"
+    }
+  ]
+}
+
