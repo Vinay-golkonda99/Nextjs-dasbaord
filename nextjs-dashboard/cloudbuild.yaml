@@ -1,1 +1,16 @@
+steps:
+  # Step to build your application (replace with actual build commands)
+  - name: 'gcr.io/cloud-builders/npm'
+    args: ['install']
+  - name: 'gcr.io/cloud-builders/npm'
+    args: ['run', 'build']
+  
+  # Step to run tests (replace with actual test commands)
+  - name: 'gcr.io/cloud-builders/npm'
+    args: ['test']
+  
+  # Step to deploy to development environment (replace with actual deployment commands)
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: ['app', 'deploy']
+    dir: 'path/to/app'
 
